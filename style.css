@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Pacifico&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:wght@300&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.slidebar {
+  background-color: rgb(209, 207, 207);
+  position: absolute;
+  font-family: "fira sans", sans-serif;
+  height: 100vh;
+  transition: transform 0.3s ease-in-out;
+}
+.slidebar nav {
+  padding: 45px;
+}
+.slidebar nav li {
+  list-style: none;
+  font-size: 25px;
+  padding: 28px 0;
+}
+.slidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main {
+  /* background-color: yellow; */
+  width: 90vw;
+  padding: 20px;
+}
+.container {
+  display: flex;
+}
+.infocontainer{
+    /* background-color: rgb(219, 238, 47); */
+    height: 50vh;
+    width: 75vw;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    padding-top: 150px;
+}
+.devinfo{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 3em;
+    font-family: 'Source Code Pro', monospace;
+}
+.name{
+    font-size: 3em;
+    font-weight: bold;
+    font-family: "fira sans", sans-serif;
+}
+.about{
+    font-size: 2.5em;
+    font-family: 'Source Code Pro', monospace;
+}
+.moreabout{
+    margin-top: 13px;
+    font-size: 1.5em;
+    font-family: "fira sans", sans-serif;
+}
+.buttons{
+    margin-top: 34px;
+}
+
+.devpic img{
+    height: 50vh;
+}
+.contactform{
+    padding-top: 80px;
+    margin-left: 88px;
+}
+.contactform form div input{
+    width: 300px;
+}
+#exampleCheck1{
+    width: 15px;
+}
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.blogitem{
+    margin: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "fira sans", sans-serif;
+}
+.blogcontainer{
+    margin-left: 88px;
+}
+.blogcontainer h1{
+    font-family: "fira sans", sans-serif;
+    margin: 35px;
+}
+.blogitem p{
+    font-family: 'Source Code Pro', monospace;
+}
+.intro{
+    margin-left: 88px; 
+}
+.intro h2{
+    font-family: "fira sans", sans-serif;
+    margin: 20px;
+}
+.intro p{
+    font-family: 'Source Code Pro', monospace;
+    margin: 20px;
+}
+
+.skillcontainer{
+    padding: 20px;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+}
+.skill{
+    height: 6px;
+    width: 280px;
+    background-color: rgb(19, 128, 230);
+    border: 1px solid black;
+}
+.fifty{
+    width: 140px;
+    background-color: rgb(78, 203, 241);
+}
+.slidebargo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    left: 10px;
+}
+.cross{
+    margin-left: 160px;
+}
+@media (max-width: 900px) {
+    .devpic{
+        display: none;
+    }
+    .devinfo{
+        font-size: 10px;
+    }
+    .intro, .blogcontainer, .contactform{
+        margin-left: 8px;
+    }
+}
+
